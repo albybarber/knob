@@ -41,19 +41,3 @@ Let me know how your project turns out!
 
 Alby Babrber
 @albybarber
-
-
-///////////////////////////////////////////////////////////////////
-
-Copyright:
-
-/* Rotary encoder handler for Arduino.
- *
- * Copyright 2011 Ben Buxton. Licensed under the GNU GPL Version 3.
- * Contact: bb@cactii.net
- *
- * Quick implementation of rotary encoder routine.
- *
- * More info: http://www.buxtronix.net/2011/10/rotary-encoders-done-properly.html
- *
- */
