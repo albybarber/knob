@@ -12,7 +12,8 @@ Parts
 ----------
 * Arduino MICRO - https://www.arduino.cc/en/Main/ArduinoBoardMicro
 * Rotary Encoder with push button - http://www.amazon.com/Position-Degree-Rotary-Encoder-Button/dp/B00KHTLWU6
-* Wire - https://www.sparkfun.com/products/9140 
+* Wire - https://www.sparkfun.com/products/9140
+* USB cable
 
 Setup
 ----------
@@ -28,9 +29,13 @@ or
 
 Sketch
 ----------
+![alt tag](https://raw.github.com/albybarber/knob/master/knob_sketch_bb.png)
 
-
+My Project
+----------
 I have also included a photo of my project.
+![alt tag](https://raw.github.com/albybarber/knob/master/albybarberproject1.jpg)
+![alt tag](https://raw.github.com/albybarber/knob/master/albybarberproject2.jpg)
 
 Let me know how your project turns out!
 
