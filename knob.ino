@@ -1,7 +1,16 @@
-// #include "Keyboard.h"
+/* Albys knob 
+ * An Arduino USB volume control knob
+ * 
+ * Copyright: MIT License
+ * Contact: @albybarber
+ * 
+ * Using:
+ *    - Ben Buxton: Rotary encoder handler for arduino.
+ *    - Stefan Jones: Arduino Multimedia Keys 'Remote'
+ */
 
-
-/* Rotary encoder handler for arduino.
+/* 
+ * Rotary encoder handler for arduino.
  *
  * Copyright 2011 Ben Buxton. Licenced under the GNU GPL Version 3.
  * Contact: bb@cactii.net
@@ -12,7 +21,6 @@
  *
  */
 
-// Half-step mode?
 #define HALF_STEP
 // Arduino pins the encoder is attached to. Attach the center to ground.
 #define ROTARY_PIN1 2
@@ -42,7 +50,6 @@ const unsigned char ttable[7][4] = {
 #endif
 volatile unsigned char state = 0;
 
-/* Call this once in setup(). */
 void rotary_init() {
   pinMode(ROTARY_PIN1, INPUT);
   pinMode(ROTARY_PIN2, INPUT);
@@ -75,9 +82,9 @@ void loop() {
   unsigned char result = rotary_process();
 
   if (digitalRead(BUTTON_PIN)){
-    // not pressed
+    // Button not pressed
   } else{
-    // pressed
+    // Button pressed
     Remote.play();
     Remote.clear();
     delay(700);
