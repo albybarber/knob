@@ -1,4 +1,4 @@
-# Albys knob 
+# Alby's knob 
 An Arduino (micro or da vinci) USB volume control knob
 
 Features
